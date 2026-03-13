@@ -228,3 +228,4 @@ SELECT
 FROM ReporteMensualRotacionProducto r
 JOIN Producto p ON r.ID_Producto = p.ID_Producto
 ORDER BY r.Anio DESC, r.Mes DESC, r.Rotacion DESC;
+
