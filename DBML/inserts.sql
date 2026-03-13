@@ -56,13 +56,13 @@ INSERT INTO Cargo (NombreCargo) VALUES
 
 -- 8. ROLES
 INSERT INTO Rol (NombreRol) VALUES
-('Admin'),
-('CoordinadorVentas'),
+('Administrador'),
+('Gerente'),
+('CajeroVendedor'),
+('Bodeguero'),
 ('AsesorComercial'),
-('EncargadoInventario'),
-('AuxiliarInventario'),
-('GerenteCompras'),
-('AuxiliarCompras');
+('Contador'),
+('AppBackend');
 
 -- 9. PERMISOS
 INSERT INTO Permiso (NombrePermiso, Descripcion) VALUES
